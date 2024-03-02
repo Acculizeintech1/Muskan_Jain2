@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* -------------------------------------------Navigation Bar----------------------------*/
+.nav{
+    background-color:#001F3F;;
+}
+.nav h3{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1.7rem;
+    color:WHITE;
+}
+#navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: -1.1%;
+}
+ul{
+    margin-right: -28%;
+    margin-left: -5%;
+}
+li{
+    display: inline-block;
+    padding: 0% 0%;
+}
+li a{
+    text-decoration: none;
+    color:#CCCCCC;
+    padding: .7rem;
+    font-size: 1.3em;
+    position: relative;
+}
+#search{
+    border: solid .2em black;
+    border-radius: 8em;
+    height: 2.2em;
+    width: 10em;
+    padding-left: 1em;
+    font-size: 1.2em;
+}
+#search:hover{
+    border-color: blue;
+}
+li a:hover{
+    color:#0074D9;
+}
+/* -------------------------------------------Slider  ----------------------------*/
+
+.lower_header{
+    display: flex;
+    width: 95%;
+}
+#slide{
+    width: 95vw;
+}
+.lower_header img{
+    height: 88vh;
+    width: 99vw;
+}
+
+
+
+/* -----------------------------------------------about-------------------------------------- */
+
+#about{
+    display: flex;
+    padding-top: 3%;
+    height: 100vh;
+    width: 92vw;
+}
+.left{
+    margin: 8%;
+    padding: -3%;
+}
+.left h2{
+    font-size: 4em;
+    width: 50;
+    animation:left 5s 0s ease-in forwards;
+}
+@keyframes left{
+    from{color: #35424a;
+    text-shadow: 24px 30px 10px #8AB6D6;}
+    to{color: #567786;
+    text-shadow: -10px -10px 10px #2E3D44;} 
+}
+.right{
+    padding-left: 8%;
+}
+.right h2{
+    font-size: 3.5em;
+    width: bold;
+    margin-bottom: .20em;
+    font-family: none;
+}
+.right p{
+    font-size: 1.2em;
+    text-align: justify;
+    padding-right: 1.5em;
+}
+.cardbox{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-right: 2%;
+}
+.card{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 2%;
+    height: 25vh;
+    width: 20vw;
+    margin: 2%;
+    box-shadow: 10px 10px 5px black;
+}
+.card:hover{
+    background-color: #BBBBBB;
+    height: 30vh;
+    width: 25vw;
+    transform: translateY(-20%);
+    transition: transform 0.5s;
+    color: #222222;
+}
+.card h3{
+    color: #000000;
+    font-size: 2em;
+    width: bold;
+}
+.card p{
+    color: #333333;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+
+/* -------------------------------------cources--------------------------------- */
+#courses{
+    padding-top: 3%;
+    height: 100vh;
+    width: 92vw;
+    margin-left: 20px;
+}
+#courses div h2,h3,h4{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+#courses div h2{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 1em;
+    color: #1A5276;
+}
+#courses div h3{
+    font-size: 3em;
+    color: #333333;
+}
+#courses div h4{
+    font-size: 1.5em;
+    color: #666666;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-right: 2%;
+}
+div .course{
+    text-align: center;
+    padding: 2%;
+    height: 25vh;
+    width: 46%;
+    margin: 2%;
+    background-image: url(/Images/IT.jpg);
+    color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #999999;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+}
+div .course2{
+    text-align: center;
+    padding: 2%;
+    height: 25vh;
+    width: 46%;
+    margin: 2%;
+    background-image: url(/Images/CS.jpg);
+    color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #999999;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+}
+div .course3{
+    text-align: center;
+    padding: 2%;
+    height: 25vh;
+    width: 46%;
+    margin: 2%;
+    background-image: url(/Images/tra.jpg);
+    color: #333333;
+    box-shadow: 0px 2px 4px 0px #999999;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+}
+div .course4{
+    text-align: center;
+    padding: 2%;
+    height: 25vh;
+    width: 46%;
+    margin: 2%;
+    background-image: url(/Images/TA.jpg);
+    color: #333333;
+    box-shadow: 0px 2px 4px 0px #999999;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+}
+div .course h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    width: bold;
+}
+.course p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+}
